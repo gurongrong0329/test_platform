@@ -15,7 +15,6 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from test_platform import views
 from test_platform.views import login_view,module_view,project_view
 
 urlpatterns = [
