@@ -28,5 +28,7 @@ urlpatterns = [
     path('project/delete/<int:pid>/',project_view.project_delete),
     path('logout/',login_view.logout),
     path('module/',module_view.module_manage),
-    path('/module/add/',module_view.module_add),
+    path('module/add/',module_view.module_add),
+    path('module/edit/<int:mid>/',module_view.module_edit),
+    path('module/delete/<int:mid>/',module_view.module_delete),
 ]

@@ -10,7 +10,7 @@ class ProjectAdmin(admin.ModelAdmin):
     search_fields = ['name']
 
 class ModuleAdmin(admin.ModelAdmin):
-    list_display = ['id','name','status','describe','create_time','project']
+    list_display = ['id','name','describe','create_time','project']
     search_fields = ['name']
 
 
